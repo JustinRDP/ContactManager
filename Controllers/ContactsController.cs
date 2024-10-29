@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Assignment_2.Data;
 using Assignment_2.Models;
+using Assignment_2.Views.Contacts;
 
 namespace Assignment_2.Controllers
 {
@@ -33,8 +32,7 @@ namespace Assignment_2.Controllers
                 return NotFound();
             }
 
-            var contact = await _context.Contacts
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var contact = await _context.Contacts.FirstOrDefaultAsync(m => m.Id == id);
             if (contact == null)
             {
                 return NotFound();
@@ -43,77 +41,76 @@ namespace Assignment_2.Controllers
             return View(contact);
         }
 
-        // GET: Contacts/Create
-        public IActionResult Create()
+        // GET: Contacts/Create or Edit
+        public async Task<IActionResult> CreateOrEdit(int? id)
         {
-            return View();
-        }
-
-        // POST: Contacts/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,firstName,lastName,Phone,Email,Category,Organization")] Contact contact)
-        {
-            if (ModelState.IsValid)
+            var contact = new Contact();
+            if (id.HasValue)
             {
-                _context.Add(contact);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(contact);
-        }
-
-        // GET: Contacts/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var contact = await _context.Contacts.FindAsync(id);
-            if (contact == null)
-            {
-                return NotFound();
-            }
-            return View(contact);
-        }
-
-        // POST: Contacts/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,firstName,lastName,Phone,Email,Category,Organization")] Contact contact)
-        {
-            if (id != contact.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                contact = await _context.Contacts.FindAsync(id);
+                if (contact == null)
                 {
-                    _context.Update(contact);
+                    return NotFound();
+                }
+            }
+
+            var viewModel = new CreateAndEditModel
+            {
+                Id = contact.Id,
+                firstName = contact.firstName,
+                lastName = contact.lastName,
+                Phone = contact.Phone,
+                Email = contact.Email,
+                Category = contact.Category,
+                Organization = contact.Organization
+            };
+
+            return View(viewModel);
+        }
+
+        // POST: Contacts/Create or Edit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateOrEdit(CreateAndEditModel viewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                if (viewModel.Id == 0) // Create
+                {
+                    var contact = new Contact
+                    {
+                        firstName = viewModel.firstName,
+                        lastName = viewModel.lastName,
+                        Phone = viewModel.Phone,
+                        Email = viewModel.Email,
+                        Category = viewModel.Category,
+                        Organization = viewModel.Organization
+                    };
+
+                    _context.Add(contact);
                     await _context.SaveChangesAsync();
                 }
-                catch (DbUpdateConcurrencyException)
+                else // Edit
                 {
-                    if (!ContactExists(contact.Id))
+                    var contactToUpdate = await _context.Contacts.FindAsync(viewModel.Id);
+                    if (contactToUpdate == null)
                     {
                         return NotFound();
                     }
-                    else
-                    {
-                        throw;
-                    }
+
+                    contactToUpdate.firstName = viewModel.firstName;
+                    contactToUpdate.lastName = viewModel.lastName;
+                    contactToUpdate.Phone = viewModel.Phone;
+                    contactToUpdate.Email = viewModel.Email;
+                    contactToUpdate.Category = viewModel.Category;
+                    contactToUpdate.Organization = viewModel.Organization;
+
+                    _context.Update(contactToUpdate);
+                    await _context.SaveChangesAsync();
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(contact);
+            return View(viewModel); // Return the same view with the model if validation fails
         }
 
         // GET: Contacts/Delete/5
@@ -124,8 +121,7 @@ namespace Assignment_2.Controllers
                 return NotFound();
             }
 
-            var contact = await _context.Contacts
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var contact = await _context.Contacts.FirstOrDefaultAsync(m => m.Id == id);
             if (contact == null)
             {
                 return NotFound();

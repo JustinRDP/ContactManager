@@ -257,6 +257,15 @@ C:\Users\justi\source\repos\Assignment 2\bin\Debug\net8.0\runtimes\win\lib\net7.
 C:\Users\justi\source\repos\Assignment 2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\justi\source\repos\Assignment 2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\justi\source\repos\Assignment 2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.csproj.AssemblyReference.cache
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.AssemblyInfoInputs.cache
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.AssemblyInfo.cs
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.csproj.CoreCompileInputs.cache
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.RazorAssemblyInfo.cache
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.RazorAssemblyInfo.cs
+C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.sourcelink.json
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\bin\Debug\net8.0\appsettings.json
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\bin\Debug\net8.0\Assignment 2.staticwebassets.runtime.json
@@ -491,15 +500,6 @@ C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactM
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.csproj.AssemblyReference.cache
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.AssemblyInfoInputs.cache
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.AssemblyInfo.cs
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.csproj.CoreCompileInputs.cache
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.RazorAssemblyInfo.cache
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.RazorAssemblyInfo.cs
-C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\Assignment 2.sourcelink.json
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\obj\Debug\net8.0\staticwebassets\msbuild.Assignment 2.Microsoft.AspNetCore.StaticWebAssets.props

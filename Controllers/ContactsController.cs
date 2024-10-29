@@ -1,11 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Assignment_2.Data;
+using Assignment_2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Assignment_2.Data;
-using Assignment_2.Models;
-using Assignment_2.Views.Contacts;
+using System.Threading.Tasks;
 
 namespace Assignment_2.Controllers
 {
@@ -21,96 +18,80 @@ namespace Assignment_2.Controllers
         // GET: Contacts
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Contacts.ToListAsync());
+            var contacts = await _context.Contacts.Include(c => c.Category).ToListAsync();
+            return View(contacts);
         }
 
-        // GET: Contacts/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: Contacts/Create
+        public IActionResult Create()
+        {
+            ViewBag.Categories = _context.Categories.ToList(); // Pass categories to the view
+            return View();
+        }
+
+        // POST: Contacts/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Contact contact)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(contact);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            ViewBag.Categories = _context.Categories.ToList(); // Pass categories back on error
+            return View(contact);
+        }
+
+        // GET: Contacts/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var contact = await _context.Contacts.FirstOrDefaultAsync(m => m.Id == id);
+            var contact = await _context.Contacts.FindAsync(id);
             if (contact == null)
             {
                 return NotFound();
             }
 
+            ViewBag.Categories = await _context.Categories.ToListAsync(); // Pass categories to the view
             return View(contact);
         }
 
-        // GET: Contacts/Create or Edit
-        public async Task<IActionResult> CreateOrEdit(int? id)
-        {
-            var contact = new Contact();
-            if (id.HasValue)
-            {
-                contact = await _context.Contacts.FindAsync(id);
-                if (contact == null)
-                {
-                    return NotFound();
-                }
-            }
-
-            var viewModel = new CreateAndEditModel
-            {
-                Id = contact.Id,
-                firstName = contact.firstName,
-                lastName = contact.lastName,
-                Phone = contact.Phone,
-                Email = contact.Email,
-                Category = contact.Category,
-                Organization = contact.Organization
-            };
-
-            return View(viewModel);
-        }
-
-        // POST: Contacts/Create or Edit
+        // POST: Contacts/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateOrEdit(CreateAndEditModel viewModel)
+        public async Task<IActionResult> Edit(int id, Contact contact)
         {
+            if (id != contact.Id)
+            {
+                return NotFound();
+            }
+
             if (ModelState.IsValid)
             {
-                if (viewModel.Id == 0) // Create
+                try
                 {
-                    var contact = new Contact
-                    {
-                        firstName = viewModel.firstName,
-                        lastName = viewModel.lastName,
-                        Phone = viewModel.Phone,
-                        Email = viewModel.Email,
-                        Category = viewModel.Category,
-                        Organization = viewModel.Organization
-                    };
-
-                    _context.Add(contact);
+                    _context.Update(contact);
                     await _context.SaveChangesAsync();
                 }
-                else // Edit
+                catch (DbUpdateConcurrencyException)
                 {
-                    var contactToUpdate = await _context.Contacts.FindAsync(viewModel.Id);
-                    if (contactToUpdate == null)
+                    if (!ContactExists(contact.Id))
                     {
                         return NotFound();
                     }
-
-                    contactToUpdate.firstName = viewModel.firstName;
-                    contactToUpdate.lastName = viewModel.lastName;
-                    contactToUpdate.Phone = viewModel.Phone;
-                    contactToUpdate.Email = viewModel.Email;
-                    contactToUpdate.Category = viewModel.Category;
-                    contactToUpdate.Organization = viewModel.Organization;
-
-                    _context.Update(contactToUpdate);
-                    await _context.SaveChangesAsync();
+                    throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(viewModel); // Return the same view with the model if validation fails
+
+            ViewBag.Categories = await _context.Categories.ToListAsync(); // Pass categories back on error
+            return View(contact);
         }
 
         // GET: Contacts/Delete/5
@@ -121,7 +102,9 @@ namespace Assignment_2.Controllers
                 return NotFound();
             }
 
-            var contact = await _context.Contacts.FirstOrDefaultAsync(m => m.Id == id);
+            var contact = await _context.Contacts
+                .Include(c => c.Category)
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (contact == null)
             {
                 return NotFound();
@@ -139,9 +122,8 @@ namespace Assignment_2.Controllers
             if (contact != null)
             {
                 _context.Contacts.Remove(contact);
+                await _context.SaveChangesAsync();
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

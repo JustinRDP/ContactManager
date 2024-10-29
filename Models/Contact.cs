@@ -4,7 +4,6 @@ namespace Assignment_2.Models
 {
     public class Contact
     {
-
         [Range(0, int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]
         public int Id { get; set; }
 
@@ -24,7 +23,9 @@ namespace Assignment_2.Models
         [EmailAddress(ErrorMessage = "Invalid email format")]
         public string Email { get; set; }
 
-        public string Category { get; set; }
+        public int CategoryId { get; set; } // Foreign key
+
+        public Category Category { get; set; } // Navigation property
 
         public string Organization { get; set; }
     }

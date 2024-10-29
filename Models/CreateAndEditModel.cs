@@ -7,7 +7,7 @@
         public string lastName { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
-        public string Category { get; set; }
+        public int CategoryId { get; set; } // Add this property for the category
         public string Organization { get; set; }
     }
 }

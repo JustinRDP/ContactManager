@@ -5,6 +5,7 @@ namespace Assignment_2.Models
 {
     public class Contact
     {
+        [Range(0,99999)]
         public int Id { get; set; }
 
         [Required]

@@ -46,22 +46,43 @@ namespace Assignment_2.Controllers
         // GET: Contacts/Create
         public IActionResult Create()
         {
+            ViewBag.CategoryList = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "Family", Text = "Family" },
+                new SelectListItem { Value = "Friend", Text = "Friend" },
+                new SelectListItem { Value = "Work", Text = "Work" },
+                new SelectListItem { Value = "Other", Text = "Other" },
+            };
+
             return View();
         }
 
         // POST: Contacts/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,firstName,lastName,Phone,Email,Category,Organization")] Contact contact)
         {
+            if (string.IsNullOrWhiteSpace(contact.Organization))
+            {
+                contact.Organization = "N/A"; // Set default to N/A if blank
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(contact);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            // Repopulate category list if model state is invalid
+            ViewBag.CategoryList = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "Family", Text = "Family" },
+                new SelectListItem { Value = "Friend", Text = "Friend" },
+                new SelectListItem { Value = "Work", Text = "Work" },
+                new SelectListItem { Value = "Other", Text = "Other" },
+            };
+
             return View(contact);
         }
 
@@ -78,12 +99,20 @@ namespace Assignment_2.Controllers
             {
                 return NotFound();
             }
+
+            // Populate the category list
+            ViewBag.CategoryList = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "Family", Text = "Family" },
+                new SelectListItem { Value = "Friend", Text = "Friend" },
+                new SelectListItem { Value = "Work", Text = "Work" },
+                new SelectListItem { Value = "Other", Text = "Other" },
+            };
+
             return View(contact);
         }
 
         // POST: Contacts/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,firstName,lastName,Phone,Email,Category,Organization")] Contact contact)
@@ -91,6 +120,11 @@ namespace Assignment_2.Controllers
             if (id != contact.Id)
             {
                 return NotFound();
+            }
+
+            if (string.IsNullOrWhiteSpace(contact.Organization))
+            {
+                contact.Organization = "N/A"; // Set default to N/A if blank
             }
 
             if (ModelState.IsValid)
@@ -113,6 +147,16 @@ namespace Assignment_2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
+            // Repopulate category list if model state is invalid
+            ViewBag.CategoryList = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "Family", Text = "Family" },
+                new SelectListItem { Value = "Friend", Text = "Friend" },
+                new SelectListItem { Value = "Work", Text = "Work" },
+                new SelectListItem { Value = "Other", Text = "Other" },
+            };
+
             return View(contact);
         }
 

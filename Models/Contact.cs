@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.RegularExpressions;
 
 namespace Assignment_2.Models
 {
@@ -18,11 +19,7 @@ namespace Assignment_2.Models
         public virtual Category Category { get; set; } // Navigation property
 
 
-        public string Slug => GenerateSlug();
+        public string Slug => Regex.Replace($"{firstName} {lastName}".ToLowerInvariant(), @"[^a-z0-9]+", "-").Trim('-');
 
-        private string GenerateSlug()
-        {
-            return $"{firstName.ToLower().Replace(" ", "-")}-{lastName.ToLower().Replace(" ", "-")}";
-        }
     }
 }

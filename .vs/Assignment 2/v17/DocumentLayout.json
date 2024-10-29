@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\middleware\\lowercaseurlmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\middleware\\lowercaseurlmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:middleware\\lowercaseurlmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Models\\Contact.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Models\\Contact.cs",
               "RelativeToolTip": "Models\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T22:40:15.883Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Middleware\\LowercaseURLMiddleware.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:36:49.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T22:36:49.227Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T22:05:38.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T22:05:38.438Z"
             }
           ]
         }

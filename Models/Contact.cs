@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace Assignment_2.Models
 {
@@ -7,9 +8,11 @@ namespace Assignment_2.Models
         public int Id { get; set; }
 
         [Required]
+        [DisplayName("First Name")]
         public string firstName { get; set; }
 
         [Required]
+        [DisplayName("Last Name")]
         public string lastName { get; set; }
 
         [Required]
@@ -22,6 +25,6 @@ namespace Assignment_2.Models
         [Required]
         public string Category { get; set; }
 
-        public string Organization { get; set; } // No [Required] attribute
+        public string? Organization { get; set; } // No [Required] attribute
     }
 }

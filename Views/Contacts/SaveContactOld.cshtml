@@ -1,0 +1,45 @@
+﻿@model Assignment_2.Models.Contact
+
+@{
+    ViewData["Title"] = Model.Id == 0 ? "Create Contact" : "Edit Contact";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="SaveContact" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="firstName"></label>
+        <input asp-for="firstName" class="form-control" />
+        <span asp-validation-for="firstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="lastName"></label>
+        <input asp-for="lastName" class="form-control" />
+        <span asp-validation-for="lastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Category"></label>
+        <select asp-for="Category" class="form-control" asp-items="@(ViewBag.CategoryList)">
+            <option value="">Select Category</option>
+        </select>
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Organization"></label>
+        <input asp-for="Organization" class="form-control" />
+        <span asp-validation-for="Organization" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">@ViewData["Title"]</button>
+</form>

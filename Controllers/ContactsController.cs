@@ -212,5 +212,61 @@ namespace Assignment_2.Controllers
         {
             return _context.Contacts.Any(e => e.Id == id);
         }
+
+        public IActionResult SaveContact(int? id)
+        {
+            // Populate category list
+            ViewBag.CategoryList = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "Family", Text = "Family" },
+                new SelectListItem { Value = "Friend", Text = "Friend" },
+                new SelectListItem { Value = "Work", Text = "Work" },
+                new SelectListItem { Value = "Other", Text = "Other" },
+            };
+
+            if (id == null) // If no ID, it's a create action
+            {
+                return View(new Contact()); // Empty model for new contact
+            }
+            else // If ID is provided, it's an edit action
+            {
+                var contact = _context.Contacts.Find(id);
+                if (contact == null)
+                {
+                    return NotFound();
+                }
+                return View(contact); // Populate form with existing data
+            }
+        }
+
+        [HttpPost]
+        public IActionResult SaveContact(Contact contact)
+        {
+            // Re-populate category list for validation
+            ViewBag.CategoryList = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "Family", Text = "Family" },
+                new SelectListItem { Value = "Friend", Text = "Friend" },
+                new SelectListItem { Value = "Work", Text = "Work" },
+                new SelectListItem { Value = "Other", Text = "Other" },
+            };
+
+            if (ModelState.IsValid)
+            {
+                if (contact.Id == 0) // If no ID, add new contact
+                {
+                    contact.DateAdded = DateTime.Now; // Set date added for new contact
+                    _context.Add(contact); // Add the contact to the context
+                }
+                else // If ID exists, update the existing contact
+                {
+                    _context.Update(contact); // Update the contact in the context
+                }
+                _context.SaveChanges(); // Save changes to the database
+                return RedirectToAction("Index"); // Redirect to the index page or another appropriate action
+            }
+
+            return View(contact); // Return the same view with the model if validation fails
+        }
     }
 }

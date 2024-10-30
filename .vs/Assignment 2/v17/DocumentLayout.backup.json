@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\views\\contacts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:views\\contacts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\views\\contacts\\savecontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:views\\contacts\\savecontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\colby\\documents\\school\\third semester\\2211a\\contact_assignment\\contactmanager\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,77 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Contacts\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Contacts\\Edit.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowDgAAAAGAAAAAAAAAA==",
+              "Title": "SaveContact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\SaveContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contacts\\SaveContact.cshtml",
+              "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\SaveContact.cshtml",
+              "RelativeToolTip": "Views\\Contacts\\SaveContact.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAADgv0EAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T20:16:29.855Z",
+              "WhenOpened": "2024-10-30T03:19:44.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:46:53.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Contacts\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Details.cshtml",
-              "RelativeToolTip": "Views\\Contacts\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T17:45:49.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Contacts\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Create.cshtml",
-              "RelativeToolTip": "Views\\Contacts\\Create.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T17:29:43.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Contacts\\Index.cshtml",
               "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\Index.cshtml",
               "RelativeToolTip": "Views\\Contacts\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T17:03:01.071Z"
+              "WhenOpened": "2024-10-30T03:14:30.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-30T03:02:27.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAgwNMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T00:28:35.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Models\\Contact.cs",
               "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Models\\Contact.cs",
               "RelativeToolTip": "Models\\Contact.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:25:03.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T16:25:03.956Z"
             }
           ]
         }

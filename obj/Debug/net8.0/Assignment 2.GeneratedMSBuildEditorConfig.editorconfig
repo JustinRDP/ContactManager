@@ -17,47 +17,47 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Assignment_2
 build_property.RootNamespace = Assignment_2
-build_property.ProjectDir = C:\Users\justi\OneDrive\Documents\GitHub\ContactManager\
+build_property.ProjectDir = C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\justi\OneDrive\Documents\GitHub\ContactManager
+build_property.MSBuildProjectDirectory = C:\Users\Colby\Documents\School\Third Semester\2211A\Contact_Assignment\ContactManager
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/Contacts/Delete.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/Contacts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/Contacts/Details.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/Contacts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/Contacts/Index.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/Contacts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/Contacts/SaveContact.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/Contacts/SaveContact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcU2F2ZUNvbnRhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/Shared/Error.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/_ViewImports.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/_ViewStart.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/OneDrive/Documents/GitHub/ContactManager/Views/Shared/_Layout.cshtml]
+[C:/Users/Colby/Documents/School/Third Semester/2211A/Contact_Assignment/ContactManager/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c227wtynx5

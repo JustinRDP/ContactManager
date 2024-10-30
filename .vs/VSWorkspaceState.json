@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Views",
+    "\\Views\\Contacts",
     "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+  "SelectedNode": "\\Views\\Contacts\\Edit.cshtml",
   "PreviewInSolutionExplorer": false
 }

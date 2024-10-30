@@ -26,7 +26,7 @@ namespace Assignment_2.Controllers
         }
 
         // GET: Contacts/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? id, string slug)
         {
             if (id == null)
             {
@@ -38,6 +38,11 @@ namespace Assignment_2.Controllers
             if (contact == null)
             {
                 return NotFound();
+            }
+
+            if (slug != contact.Slug)
+            {
+                return RedirectToAction("Details", new { id = contact.Id, slug = contact.Slug });
             }
 
             return View(contact);
@@ -87,7 +92,7 @@ namespace Assignment_2.Controllers
         }
 
         // GET: Contacts/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? id, string slug)
         {
             if (id == null)
             {
@@ -98,6 +103,11 @@ namespace Assignment_2.Controllers
             if (contact == null)
             {
                 return NotFound();
+            }
+
+            if (slug != contact.Slug)
+            {
+                return RedirectToAction("Edit", new { id = contact.Id, slug = contact.Slug });
             }
 
             // Populate the category list
@@ -115,7 +125,7 @@ namespace Assignment_2.Controllers
         // POST: Contacts/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,firstName,lastName,Phone,Email,Category,Organization")] Contact contact)
+        public async Task<IActionResult> Edit(int id, string slug, [Bind("Id,firstName,lastName,Phone,Email,Category,Organization")] Contact contact)
         {
             if (id != contact.Id)
             {
@@ -145,7 +155,7 @@ namespace Assignment_2.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", new { id = contact.Id, slug = contact.Slug });
             }
 
             // Repopulate category list if model state is invalid
@@ -161,7 +171,7 @@ namespace Assignment_2.Controllers
         }
 
         // GET: Contacts/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id, string slug)
         {
             if (id == null)
             {
@@ -175,13 +185,18 @@ namespace Assignment_2.Controllers
                 return NotFound();
             }
 
+            if (slug != contact.Slug)
+            {
+                return RedirectToAction("Delete", new { id = contact.Id, slug = contact.Slug });
+            }
+
             return View(contact);
         }
 
         // POST: Contacts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id, string slug)
         {
             var contact = await _context.Contacts.FindAsync(id);
             if (contact != null)

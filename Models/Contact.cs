@@ -27,5 +27,7 @@ namespace Assignment_2.Models
         public string Category { get; set; }
 
         public string? Organization { get; set; } // No [Required] attribute
+
+        public string Slug => $"{firstName.ToLower().Replace(" ", "-")}-{lastName.ToLower().Replace(" ", "-")}";
     }
 }

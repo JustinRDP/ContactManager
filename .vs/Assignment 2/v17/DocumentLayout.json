@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,19 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:31:13.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:31:08.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "Controllers\\ContactsController.cs",
-              "ViewState": "AQIAAMYAAAAAAAAAAAAzwNMAAAAJAAAA",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAAwOYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T00:28:35.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Models\\Contact.cs",
@@ -43,8 +77,7 @@
               "RelativeToolTip": "Models\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:25:03.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T16:25:03.956Z"
             }
           ]
         }

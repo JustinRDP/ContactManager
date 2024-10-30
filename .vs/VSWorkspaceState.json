@@ -7,6 +7,6 @@
     "\\Views\\Contacts",
     "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Views\\Contacts\\Delete.cshtml",
+  "SelectedNode": "\\Controllers\\ContactsController.cs",
   "PreviewInSolutionExplorer": false
 }

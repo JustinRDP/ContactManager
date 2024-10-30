@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Views\\Contacts\\SaveContact.cshtml",
               "ToolTip": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Views\\Contacts\\SaveContact.cshtml",
               "RelativeToolTip": "Views\\Contacts\\SaveContact.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAADgv0EAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-30T03:19:44.782Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Views\\Contacts\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T03:14:30.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T03:14:30.493Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-30T03:02:27.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T03:02:27.112Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Controllers\\ContactsController.cs",
               "ViewState": "AgIAAAABAAAAAAAAAAAgwNMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:28:35.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T00:28:35.828Z"
             },
             {
               "$type": "Document",

@@ -7,6 +7,6 @@
     "\\Views\\Contacts",
     "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Views\\Contacts\\Details.cshtml",
+  "SelectedNode": "\\Views\\Contacts\\SaveContact.cshtml",
   "PreviewInSolutionExplorer": false
 }

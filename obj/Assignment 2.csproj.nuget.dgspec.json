@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Assignment 2.csproj": {}
+    "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Assignment 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Assignment 2.csproj": {
+    "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Assignment 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Assignment 2.csproj",
+        "projectUniqueName": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Assignment 2.csproj",
         "projectName": "Assignment 2",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Assignment 2.csproj",
-        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\obj\\",
+        "projectPath": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\Assignment 2.csproj",
+        "packagesPath": "C:\\Users\\Colby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Colby\\Documents\\School\\Third Semester\\2211A\\Contact_Assignment\\ContactManager\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Colby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

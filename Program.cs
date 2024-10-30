@@ -1,4 +1,5 @@
 using Assignment_2.Data;
+using Assignment_2.Middleware;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseMiddleware<LowercaseURLMiddleware>();
 
 app.UseRouting();
 

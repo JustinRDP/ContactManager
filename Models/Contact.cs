@@ -29,5 +29,9 @@ namespace Assignment_2.Models
         public string? Organization { get; set; } // No [Required] attribute
 
         public string Slug => $"{firstName.ToLower().Replace(" ", "-")}-{lastName.ToLower().Replace(" ", "-")}";
+
+        [DataType(DataType.Date)]
+        [DisplayName("Date Added")]
+        public DateTime DateAdded { get; set; } = DateTime.Now; // Initialize with current date
     }
 }

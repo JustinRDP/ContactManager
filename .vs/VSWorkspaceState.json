@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Controllers",
+    "\\Middleware",
     "\\Views",
     "\\Views\\Contacts",
     "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Controllers\\ContactsController.cs",
+  "SelectedNode": "\\Middleware\\LowercaseURLMiddleware.cs",
   "PreviewInSolutionExplorer": false
 }

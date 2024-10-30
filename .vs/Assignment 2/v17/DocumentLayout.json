@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\middleware\\lowercaseurlmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:middleware\\lowercaseurlmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|c:\\users\\justi\\onedrive\\documents\\github\\contactmanager\\views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE83296-EE44-46DB-A81D-CEEE8F45675A}|Assignment 2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LowercaseURLMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Middleware\\LowercaseURLMiddleware.cs",
-              "RelativeDocumentMoniker": "Middleware\\LowercaseURLMiddleware.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Middleware\\LowercaseURLMiddleware.cs",
-              "RelativeToolTip": "Middleware\\LowercaseURLMiddleware.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:46:06.149Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Views\\Contacts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contacts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Views\\Contacts\\Details.cshtml",
+              "RelativeToolTip": "Views\\Contacts\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowC0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T00:57:36.288Z",
               "EditorCaption": ""
             },
             {
@@ -49,14 +49,14 @@
               "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "Controllers\\ContactsController.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAmwI4AAAARAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAmwHwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T00:28:35.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -64,20 +64,20 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T00:26:49.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T00:26:49.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Models\\Contact.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Documents\\GitHub\\ContactManager\\Models\\Contact.cs",
               "RelativeToolTip": "Models\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAASAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBwAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:25:03.956Z"
+              "WhenOpened": "2024-10-28T16:25:03.956Z",
+              "EditorCaption": ""
             }
           ]
         }
